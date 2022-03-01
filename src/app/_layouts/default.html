@@ -2,7 +2,6 @@
 layout: compress.html
 ---
 
-
 {% if page.name == 'blog' %}
 
 {% assign body_class = 'version-blog' %}
@@ -62,7 +61,7 @@ layout: compress.html
 
 {% include head.html %}
 
-<body class="version1-1 parent-active">
+<body class="{{ body_class }}">
 
 	{% include header-landing.html %}
 

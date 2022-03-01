@@ -15,8 +15,7 @@ layout: compress.html
     <header id="header7">
         <div class="container-fluid">
             <div class="d-flex flex-wrap align-items-center justify-content-between">
-                <div id="logo"
-                    class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+                <div id="logo" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
                     <a href="{{ '/' | relative_url }}">
                         <img class="logo-1" src="{{ logo1 | relative_url }}" alt="" title="" />
                     </a>
@@ -30,10 +29,12 @@ layout: compress.html
     </header>
     <!-- End Header Area -->
 
-    {{ content }}
+	{{ content }}
 
     {% include footer.html %}
     {% include scripts.html %}
 </body>
 
 </html>
+
+
