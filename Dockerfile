@@ -15,7 +15,7 @@
 
 
 
-FROM jekyll/jekyll:3.8.6
+FROM jekyll/jekyll:4.2.0
 WORKDIR /srv/jekyll
 COPY ./src/app /srv/jekyll
 COPY ./src/vendor/bundle /usr/local/bundle

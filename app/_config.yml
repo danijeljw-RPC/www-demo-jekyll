@@ -1,0 +1,94 @@
+name: RePass Cloud Pty Ltd
+title: RePass Cloud - Simple SaaS Solutions
+email: hello@repasscloud.com
+address: '2216 Park Avenue, California 95630 '
+phone: 0185612012035
+tagline: description for your new site here
+description: >-
+  Write an awesome description for your new site here. You can edit this line in
+  _config.yml. It will appear in your document head meta (for Google search
+  results) and in your feed.xml site description.
+baseurl: ''
+url: 'https://softdash.jekylltemplate.com'
+favicon: img/favicon.png
+paginate: 12
+paginate_path: '/blog/page:num/'
+sass:
+  sass_dir: _sass
+  style: compressed
+markdown: kramdown
+google_analytics: null
+disqus_shortname: softdash
+hero: product_fixed_image
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - package.json
+  - gulpfile.js
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-redirect-from
+whitelist:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-redirect-from
+getform_id: e5e1f635-da5d-4fc9-9a47-2e10735146f5
+mailchimp:
+  user-id: null
+  list-id: null
+copyright_text: Copyright © 2021 All rights reserved to
+company_url: '#'
+google_site_verification: null
+bing_site_verification: null
+yandex_site_verification: null
+naver_site_verification: null
+twitter:
+  username: null
+facebook:
+  username: null
+  app_id: null
+  publisher: null
+og_image: null
+social:
+  type: null
+  name: null
+  links: null
+analytics:
+  provider: false
+  google:
+    tracking_id: null
+    anonymize_ip: null
+timezone: ''
+map:
+  key: AIzaSyA7nx22ZmINYk9TGiXDEXGVxghC43Ox6qA
+  let: 40.67
+  lng: -73.94
+  zoom: 11
+  title: '121 King William Street, Snazzy'
+collections:
+  posts:
+    output: true
+    permalink: '/blog/:slug/'
+  pages:
+    output: true
+    permalink: '/:path/index:output_ext'
+defaults:
+  - scope:
+      path: ''
+      type: pages
+    values:
+      layout: page
+  - scope:
+      path: _posts
+      type: posts
+    values:
+      layout: post
+      hero: blog_details
