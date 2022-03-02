@@ -1,0 +1,9 @@
+# Local Netlify folder
+.netlify
+
+_site/
+
+.jekyll-cache/
+
+Gemfile.lock
+

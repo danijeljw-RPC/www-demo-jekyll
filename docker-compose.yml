@@ -3,7 +3,15 @@ services:
   jekyll:
     image: jekyll/jekyll:latest
     command: jekyll serve --watch --force_polling --verbose --livereload
-    ports:
-      - 4003:4000
     volumes:
       - ./app:/srv/jekyll
+
+
+
+
+
+  nginx:
+    image: "nginx:1.21.6-alpine"
+    restart: unless-stopped
+    volumes:
+      - /data/nginx:/usr/share/nginx/html
