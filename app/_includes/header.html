@@ -61,7 +61,7 @@
                         <img class="logo-2" src="{{ 'img/logo.png' | relative_url }}" alt="" title="" />
                     </a>
                 </div>
-                <div class="nav-wrap d-flex flex-row align-items-right">
+                <div class="nav-wrap d-flex flex-row align-items-left">
                     <nav id="nav-menu-container">
                         <ul class="nav-menu">
                             <li class="menu-has-children">
@@ -70,12 +70,11 @@
                             <li>
                                 <a href="{{ '#features' | relative_url }}">Features</a>
                             </li>
-
                             <li class="menu-has-children">
                                 {% if page.name == 'blog' %}
-                                <a href="{{ 'blog' | relative_url }}">Blog</a>
+                                <a href="{{ '/blog' | relative_url }}">Blog</a>
                                 {% else %}
-                                <a href="{{ '#blog' | relative_url }}">Blog</a>
+                                <a href="{{ '/blog' | relative_url }}">Blog</a>
                                 {% endif %}
                             </li>
                             <li>
@@ -84,9 +83,9 @@
                         </ul>
                     </nav>
                 </div>
-                <div>
+                <!-- <div>
                     <a class="genric-btn" href="{{ site.request-demo }}">Free trial</a>
-                </div>
+                </div> -->
                 <!-- #nav-menu-container -->
             </div>
         </div>

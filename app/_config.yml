@@ -354,12 +354,12 @@ footer_resources_link_four_link: '#'
 
 
 footer_features_link_heading: 'More Information'
-footer_features_link_one_text: 'Privacy Policy'
-footer_features_link_one_link: '#'
+footer_features_link_one_text: 'Cookie Policy'
+footer_features_link_one_link: '/docs/cookie-policy-20220304.pdf'
 footer_features_link_two_text: 'GDPR'
-footer_features_link_two_link: '#'
-footer_features_link_three_text: 'Contact Us'
-footer_features_link_three_link: '#'
+footer_features_link_two_link: '/docs/repass-cloud-gdpr-20220101.pdf'
+footer_features_link_three_text: 'Terms of Use'
+footer_features_link_three_link: '/docs/terms-of-use-20211106.pdf'
 footer_features_link_four_text: 'Blog'
 footer_features_link_four_link: '/blog'
 
