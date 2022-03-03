@@ -1,6 +1,6 @@
 ---
-title: Benjamin Franklin S Method Of Habit Formation
-image: 'img/blog/b1.jpg'
+title: Launching A Second Time Around
+image: 'img/blog/p5.jpg'
 layout: post
 ---
 
@@ -44,7 +44,8 @@ per Athin in non.
 
 ## Manu prius retentas paterque
 
-[Scopulos dissimiles praesens](http://tuatantalus.io/) latus, miserabile conlato
+Unless you've spent time developing with [C](https://en.wikipedia.org/wiki/C_(programming_language))/[C++](https://isocpp.org/), you might not have heard of [Makefile](https://www.gnu.org/software/make/manual/html_node/Simple-Makefile.html)
+beforelatus, miserabile conlato
 est albis delubraque latus pastoria colentibus puppim locuti. Arida donec non
 tulisti nunc.
 

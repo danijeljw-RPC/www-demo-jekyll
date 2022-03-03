@@ -342,9 +342,9 @@ contact_address: 'Los Angeles, United States'
 footer_title: 'About Us'
 footer_description: 'About 64% of all on-line teens say that do things online that they wouldn’t want their parents to know about. 11% of all adult internet user visit websites.'
 
-footer_resources_link_heading: 'Resources'
-footer_resources_link_one_text: 'Guides'
-footer_resources_link_one_link: '#'
+footer_resources_link_heading: 'Our Products'
+footer_resources_link_one_text: 'OptechX'
+footer_resources_link_one_link: 'https://optechx.com'
 footer_resources_link_two_text: 'Research'
 footer_resources_link_two_link: '#'
 footer_resources_link_three_text: 'Experts'
@@ -353,19 +353,21 @@ footer_resources_link_four_text: 'Agencies'
 footer_resources_link_four_link: '#'
 
 
-footer_features_link_heading: 'Features'
-footer_features_link_one_text: 'Guides'
+footer_features_link_heading: 'More Information'
+footer_features_link_one_text: 'Privacy Policy'
 footer_features_link_one_link: '#'
-footer_features_link_two_text: 'Research'
+footer_features_link_two_text: 'GDPR'
 footer_features_link_two_link: '#'
-footer_features_link_three_text: 'Experts'
+footer_features_link_three_text: 'Contact Us'
 footer_features_link_three_link: '#'
-footer_features_link_four_text: 'Agencies'
-footer_features_link_four_link: '#'
+footer_features_link_four_text: 'Blog'
+footer_features_link_four_link: '/blog'
 
 
-footer_facebook_link: '#'
-footer_twitter_link: '#'
+footer_facebook_link: 'https://www.facebook.com/OptechX-102592655550403/'
+footer_twitter_link: 'https://twitter.com/repasscloud'
+footer_github_link: 'https://github.com/repasscloud'
+footer_linkedin_link: 'https://www.linkedin.com/company/repass-cloud/'
 footer_dribbble_link: '#'
 footer_behance_link: '#'
 
@@ -377,7 +379,7 @@ mailchimp:
 ####################################
 ######        Copyright       ######
 ####################################
-copyright_text: Copyright © 2019 All rights reserved to
+copyright_text: Copyright © 2019-2022 
 company_url: '#'
 
 
@@ -389,7 +391,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : repasscloud
 facebook:
   username               :
   app_id                 :
@@ -409,7 +411,8 @@ analytics:
     tracking_id          :
     anonymize_ip         : # true, false (default)
 
-timezone:  ''# https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:  'Australia/Sydney'
+# https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 #google map api key
 
