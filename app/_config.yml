@@ -361,7 +361,7 @@ footer_features_link_two_link: '#'
 footer_features_link_three_text: 'Contact Us'
 footer_features_link_three_link: '#'
 footer_features_link_four_text: 'Blog'
-footer_features_link_four_link: '#'
+footer_features_link_four_link: '/blog'
 
 
 footer_facebook_link: '#'
