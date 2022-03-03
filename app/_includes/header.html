@@ -61,32 +61,37 @@
                         <img class="logo-2" src="{{ 'img/logo.png' | relative_url }}" alt="" title="" />
                     </a>
                 </div>
-                <div class="nav-wrap d-flex flex-row align-items-right">
+                <div class="nav-wrap d-flex flex-row align-items-left">
                     <nav id="nav-menu-container">
                         <ul class="nav-menu">
                             <li class="menu-has-children">
                                 <a href="{{ '/#' | relative_url }}">Home</a>
                             </li>
                             <li>
-                                <a href="{{ '#features' | relative_url }}">Features</a>
-                            </li>
-
-                            <li class="menu-has-children">
-                                {% if page.name == 'blog' %}
-                                <a href="{{ 'blog' | relative_url }}">Blog</a>
-                                {% else %}
-                                <a href="{{ '#blog' | relative_url }}">Blog</a>
-                                {% endif %}
+                                <a href="{{ '#technology' | relative_url }}">Technology</a>
                             </li>
                             <li>
-                                <a href="{{ '#contact' | relative_url }}">Contact</a>
+                                <a href="{{ '#optechx' | relative_url }}">OptechX</a>
                             </li>
+                            <li>
+                                <a href="{{ '#office365' | relative_url }}">O365 Portal</a>
+                            </li>
+                            <!-- <li class="menu-has-children">
+                                {% if page.name == 'blog' %}
+                                <a href="{{ '/blog' | relative_url }}">Blog</a>
+                                {% else %}
+                                <a href="{{ '/blog' | relative_url }}">Blog</a>
+                                {% endif %}
+                            </li> -->
+                            <!-- <li>
+                                <a href="{{ '#contact' | relative_url }}">Contact</a>
+                            </li> -->
                         </ul>
                     </nav>
                 </div>
-                <div>
+                <!-- <div>
                     <a class="genric-btn" href="{{ site.request-demo }}">Free trial</a>
-                </div>
+                </div> -->
                 <!-- #nav-menu-container -->
             </div>
         </div>
