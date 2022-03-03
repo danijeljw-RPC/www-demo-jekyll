@@ -343,8 +343,8 @@ footer_title: 'About Us'
 footer_description: 'About 64% of all on-line teens say that do things online that they wouldn’t want their parents to know about. 11% of all adult internet user visit websites.'
 
 footer_resources_link_heading: 'Our Products'
-footer_resources_link_one_text: 'Guides'
-footer_resources_link_one_link: '#'
+footer_resources_link_one_text: 'OptechX'
+footer_resources_link_one_link: 'https://optechx.com'
 footer_resources_link_two_text: 'Research'
 footer_resources_link_two_link: '#'
 footer_resources_link_three_text: 'Experts'
@@ -364,9 +364,10 @@ footer_features_link_four_text: 'Blog'
 footer_features_link_four_link: '/blog'
 
 
-footer_facebook_link: '#'
+footer_facebook_link: 'https://www.facebook.com/OptechX-102592655550403/'
 footer_twitter_link: 'https://twitter.com/repasscloud'
 footer_github_link: 'https://github.com/repasscloud'
+footer_linkedin_link: 'https://www.linkedin.com/company/repass-cloud/'
 footer_dribbble_link: '#'
 footer_behance_link: '#'
 
@@ -390,7 +391,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : repasscloud
 facebook:
   username               :
   app_id                 :
