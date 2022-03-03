@@ -25,6 +25,10 @@
     @extend .d1-gradient-bg;
 }
 
+.gradient-bg-dja {
+    @extend .a1-gradient-bg;
+}
+
 .gradient-bg2 {
     @extend .d3-gradient-bg;
 }
@@ -70,6 +74,12 @@
     background-image: -moz-linear-gradient( 110deg, $primary-color 0%, $primary-color2 100%);
     background-image: -webkit-linear-gradient( 110deg, $primary-color 0%, $primary-color2 100%);
     background-image: -ms-linear-gradient( 110deg, $primary-color 0%, $primary-color2 100%);
+}
+
+.a1-gradient-bg {
+    background-image: -moz-linear-gradient( 110deg, $primary-color2 0%, $primary-color 100%);
+    background-image: -webkit-linear-gradient( 110deg, $primary-color2 0%, $primary-color 100%);
+    background-image: -ms-linear-gradient( 110deg, $primary-color2 0%, $primary-color 100%);
 }
 
 .d2-gradient-bg {
