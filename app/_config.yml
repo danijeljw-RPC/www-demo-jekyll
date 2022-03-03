@@ -2,7 +2,7 @@
 ######     Global start     ######
 ####################################
 name                : 'RePass Cloud Pty Ltd'
-title               : 'Softdash - Creative SaaS And Software HTML5 Jekyll Template'
+title               : '100% Effortless SaaS - Dream your next Solution'
 email               : "hello@repasscloud.com"
 address             : '2216 Park Avenue, California 95630 '
 phone               : 0185612012035
@@ -12,7 +12,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl             : "" # the subpath of your site, e.g. /blog
-url                 : "http://127.0.0.1:4000/" #  7277783  the base hostname & protocol for your site, e.g. http://example.com
+url                 : "/" #  7277783  the base hostname & protocol for your site, e.g. http://example.com
 twitter_username    : repasscloud
 github_username     : repasscloud
 
