@@ -44,7 +44,7 @@ hero_product_fixed_image_name: '100% Effortless SaaS<br />Dream your next Soluti
 hero_product_fixed_image_text: >
   Conceive, Design, Build &amp; Deploying visionary SaaS solutions using your existing infrastructure and hardware. SaaS doesn't need advance your expenditure to deliver higher performance when it's effortless to run.
 hero_product_fixed_image_image: 'img/iPhoneX.png'
-hero_product_fixed_image_btn_one_link: '#'
+hero_product_fixed_image_btn_one_link: '#optechx'
 hero_product_fixed_image_btn_one_text:  'Learn More'
 
 # hero-section-blog
@@ -66,6 +66,7 @@ hero_blog_slider:
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 exclude:
+  - 2022-03-03-launching-second-time-around.md
   - index_old.html
   - Gemfile
   - Gemfile.lock
