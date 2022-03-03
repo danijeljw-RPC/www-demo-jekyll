@@ -2,9 +2,9 @@
 ####################################
 ######     Global start     ######
 ####################################
-name                : 'Ducor'
+name                : 'RePass Cloud Pty Ltd'
 title               : 'Softdash - Creative SaaS And Software HTML5 Jekyll Template'
-email               : "demo@example.com"
+email               : "hello@repasscloud.com"
 address             : '2216 Park Avenue, California 95630 '
 phone               : 0185612012035
 tagline             : 'description for your new site here' 
@@ -14,8 +14,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 baseurl             : "" # the subpath of your site, e.g. /blog
 url                 : "http://127.0.0.1:4000/" #  7277783  the base hostname & protocol for your site, e.g. http://example.com
-twitter_username    : jekyllrb
-github_username     :  jekyll
+twitter_username    : repasscloud
+github_username     : repasscloud
 
 paginate: 12
 paginate_path: "/blog/page:num/"
@@ -37,94 +37,14 @@ disqus:
 ####################################
 ######     Hero start     ######
 ####################################
-# product_background_image          sass
-# product_fixed_image               saas_video             
-# product                           sass_background_image
-# product_slider                    sass_fixed_image
-# product_video                     sass_slider       
-
 hero: 'product_fixed_image'
 
-# sass [ only one image ]
-hero_sass_name: 'We Made our <br> Software 100% Errorless'
-hero_sass_text: 'The first is a non technical method which requires the use of adware removal software. Download free adware and spyware removal software and use advanced tools to help prevent getting infected.'
-hero_sass_image: 'img/hero/hero-img.png'
-hero_sass_btn_one_link: '#'
-hero_sass_btn_one_text:  'Start a project'
-hero_sass_btn_two_link: '#'
-hero_sass_btn_two_text: ' View Pricing '
-
-# saas_video [ video type mp4 ]
-hero_saas_video_name: 'We Made our <br> Software 100% Errorless' 
-hero_saas_video_text: 'The first is a non technical method which requires the use of adware removal software.  Download free adware and spyware removal software and use advanced tools to help prevent  getting infected.'
-hero_saas_video_image: 'img/mockup.png'
-hero_saas_video_video: 'vdo/sass-bv.mp4'
-hero_saas_video_btn_one_link: '#'
-hero_saas_video_btn_one_text:  'Browse free demo'
-
-# sass_background_image
-hero_sass_background_image_name: 'We Made our <br> Software 100% Errorless' 
-hero_sass_background_image_text: 'The first is a non technical method which requires the use of adware removal software.  Download free adware and spyware removal software and use advanced tools to help prevent  getting infected.'
-hero_sass_background_image_image: 'img/mockup.png'
-hero_sass_background_image_btn_one_link: '#'
-hero_sass_background_image_btn_one_text:  'Browse free demo'
-
-# sass_fixed_image
-hero_saas_fixed_image_name: 'We Made our <br> Software 100% Errorless' 
-hero_saas_fixed_image_text: 'The first is a non technical method which requires the use of adware removal software.  Download free adware and spyware removal software and use advanced tools to help prevent  getting infected.'
-hero_saas_fixed_image_image: 'img/mockup.png'
-hero_saas_fixed_image_btn_one_link: '#'
-hero_saas_fixed_image_btn_one_text:  'Browse free demo'
-
-# sass_slider
-hero_sass_slider_name: 'We Made our <br> Software 100% Errorless' 
-hero_sass_slider_image: 'img/mockup.png'
-hero_sass_slider_btn_one_link: '#'
-hero_sass_slider_btn_one_text:  'Browse free demo'
-hero_sass_slider: 
-  - image: 'img/carusel/s1.jpg'
-  - image: 'img/carusel/s2.jpg'
-  - image: 'img/carusel/s3.jpg'
-
-# product [ only one image ]
-hero_product_name: 'The most Creative <br> Theme ever for Business'
-hero_product_text: 'The first is a non technical method which requires the use of adware removal software. Download  free adware and spyware removal software and use advanced tools to help prevent getting infected.'
-hero_product_image: 'img/hero/hero-img2.png'
-hero_product_btn_one_link: '#'
-hero_product_btn_one_text:  'Browse free demo'
-
-# product_video [ video type mp4 ]
-hero_product_video_name: 'The most Creative <br> Theame ever in Business' 
-hero_product_video_text: 'The first is a non technical method which requires the use of adware removal software. ownload free adware and spyware removal'
-hero_product_video_image: 'img/iPhoneX.png'
-hero_product_video_video: 'vdo/app-bv.mp4'
-hero_product_video_btn_one_link: '#'
-hero_product_video_btn_one_text:  'Browse free demo'
-
-# product_background_image
-hero_product_background_image_name: 'The most Creative <br> Theame ever in Business' 
-hero_product_background_image_text: 'The first is a non technical method which requires the use of adware removal software. Download free adware and spyware removal software and use advanced tools to help prevent getting infected.'
-hero_product_background_image_image: 'img/iPhoneX.png'
-hero_product_background_image_btn_one_link: '#'
-hero_product_background_image_btn_one_text:  'Browse free demo'
-
 # product_fixed_image
-hero_product_fixed_image_name: 'The most Creative <br> Theame ever in Business' 
+hero_product_fixed_image_name: 'The most Creative <br> Theme ever in Business' 
 hero_product_fixed_image_text: 'The first is a non technical method which requires the use of adware removal software.  Download free adware and spyware removal software and use advanced tools to help prevent  getting infected.'
 hero_product_fixed_image_image: 'img/iPhoneX.png'
 hero_product_fixed_image_btn_one_link: '#'
 hero_product_fixed_image_btn_one_text:  'Browse free demo'
-
-# product_slider
-hero_product_slider_name: 'The most Creative <br> Theame ever in Business' 
-hero_product_slider_text: 'The first is a non technical method which requires the use of adware removal software. Download free adware and spyware removal software and use advanced tools to help prevent getting infected.'
-hero_product_slider_image: 'img/iPhoneX.png'
-hero_product_slider_btn_one_link: '#'
-hero_product_slider_btn_one_text:  'Browse free demo'
-hero_product_slider: 
-  - image: 'img/carusel/a1.jpg'
-  - image: 'img/carusel/a2.jpg'
-  - image: 'img/carusel/a3.jpg'
 
 # hero-section-blog
 
