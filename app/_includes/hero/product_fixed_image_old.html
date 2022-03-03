@@ -3,7 +3,7 @@
     <section class="hero-section relative">
         <div class="container">
             <div class="row fullscreen align-items-center relative">
-                <div class="col-lg-12 content-wrap">
+                <div class="col-lg-6 content-wrap">
                     <h1>
                         {{ site.hero_product_fixed_image_name }}
                     </h1>
@@ -13,6 +13,10 @@
                     <a href="{{ site.hero_product_fixed_image_btn_one_link | absolute_url }}" class="genric-btn2">
                         {{ site.hero_product_fixed_image_btn_one_text }}
                     </a>
+                </div>
+
+                <div class="col-lg-6">
+                    <img class="hero-img4" src="{{ site.hero_product_fixed_image_image }}" alt="">
                 </div>
             </div>
         </div>
