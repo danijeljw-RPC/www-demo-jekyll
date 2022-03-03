@@ -410,7 +410,8 @@ analytics:
     tracking_id          :
     anonymize_ip         : # true, false (default)
 
-timezone:  ''# https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:  'Australia/Sydney'
+# https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 #google map api key
 
