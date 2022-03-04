@@ -1,0 +1,40 @@
+    <!-- Start contact section -->
+    <section id="contact" class="contact-section section-gap">
+        <div class="container">
+            <div class="row justify-content-center section-title-wrap">
+                <div class="col-lg-12">
+                    <div class="title-img">
+                        <img src="{{ site.contact_image | relative_url }}" alt="">
+                    </div>
+                    <h1>{{ site.contact_title }}</h1>
+                    <p>
+                       {{ site.contact_description }}
+                    </p>
+                </div>
+            </div>
+            <div class="row justify-content-between align-items-start">
+                <div class="col-lg-12">
+                    <form action="https://getform.io/f/82ecd1c6-61fa-4025-abc6-7207a03c9735" method="POST">
+                        <input type="text" name="name">
+                        <input type="email" name="email">
+                        <input type="text" name="message">
+                        <!-- checkbox handle --> 
+                        <input type="checkbox" name="subscribe" value="yes" checked>
+                        <input type="hidden" name="subscribe" value="no">
+                        <!-- radio button handle --> 
+                        <input type="radio" name="gender" value="male" checked>
+                        <input type="radio" name="gender" value="female">
+                        <input type="radio" name="gender" value="other">
+                        <!-- select field handle --> 
+                        <select name="work-experience">
+                            <option value="one-year">0-1 years</option>
+                            <option value="one-five-years">1-5 years</option>
+                            <option value="five-plus-years">5+ years</option>
+                        </select>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End contact section -->
