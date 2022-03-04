@@ -14,25 +14,32 @@
             </div>
             <div class="row justify-content-between align-items-start">
                 <div class="col-lg-12">
-                    <form action="https://getform.io/f/82ecd1c6-61fa-4025-abc6-7207a03c9735" method="POST">
-                        <input type="text" name="name">
-                        <input type="email" name="email">
-                        <input type="text" name="message">
-                        <!-- checkbox handle --> 
-                        <input type="checkbox" name="subscribe" value="yes" checked>
-                        <input type="hidden" name="subscribe" value="no">
-                        <!-- radio button handle --> 
-                        <input type="radio" name="gender" value="male" checked>
-                        <input type="radio" name="gender" value="female">
-                        <input type="radio" name="gender" value="other">
-                        <!-- select field handle --> 
-                        <select name="work-experience">
-                            <option value="one-year">0-1 years</option>
-                            <option value="one-five-years">1-5 years</option>
-                            <option value="five-plus-years">5+ years</option>
-                        </select>
-                        <button type="submit">Send</button>
+                    <form class="form-area contact-form" id="myForm" action="https://getform.io/f/{{site.getform_id}}" method="post">
+                        <label for="">Your Name</label>
+                        <input name="name" autocomplete="name" placeholder="Enter your name" onfocus="this.placeholder = ''"
+                            onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control"
+                            required="" type="text">
+
+                        <label for="">Email Address</label>
+                        <input name="email" autocomplete="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
+                            onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control"
+                            required="" type="email">
+
+                        <label for="">SUbject</label>
+                        <input name="subject" autocomplete="subject" placeholder="Enter subject" onfocus="this.placeholder = ''"
+                            onblur="this.placeholder = 'Enter subject'" class="common-input mb-20 form-control"
+                            required="" type="text">
+
+                        <label for="">Message</label>
+                        <textarea class="common-textarea form-control" cols="30" rows="7" name="message" autocomplete="message"
+                            placeholder="Enter Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Messege'"
+                            required=""></textarea>
+                        <div class="">
+                            <button type="submit" class="genric-btn mt-30">Send Message</button>
+                            <div class="alert-msg"></div>
+                        </div>
                     </form>
+
                 </div>
             </div>
         </div>
