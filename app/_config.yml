@@ -44,7 +44,7 @@ hero: 'product_fixed_image'
 hero_product_fixed_image_name: '100% Effortless SaaS<br />Dream your next Solution' 
 #hero_product_fixed_image_text: 'The first is a non technical method which requires the use of adware removal software.  Download free adware and spyware removal software and use advanced tools to help prevent  getting infected.'
 hero_product_fixed_image_text: >
-  Conceive, Design, Build &amp; Deploying visionary SaaS solutions using your existing infrastructure and hardware. SaaS doesn't need advance your expenditure to deliver higher performance when it's effortless to run.
+  Conceive, Design, Build &amp; Deploying visionary SaaS solutions using your existing infrastructure and hardware. SaaS doesn't need to advance your expenditure to deliver higher performance when it's effortless to run.
 hero_product_fixed_image_image: 'img/iPhoneX.png'
 hero_product_fixed_image_btn_one_link: '#optechx'
 hero_product_fixed_image_btn_one_text:  'Learn More'
@@ -106,13 +106,13 @@ feature_image_one: '/img/net-core-logo.png'
 feature_title_one: '.Net Core Framework'
 feature_description_one: 'Targeting modern solutions requires modern technology. We leverage the <a href="https://dotnet.microsoft.com">.Net Framework</a> to ingtegrate seamlessly.'
 
-feature_image_two: 'https://raw.githubusercontent.com/isocpp/logos/master/cpp_logo.png'
-feature_title_two: 'Full of features'
-feature_description_two: 'Some days a motivational quote can provide a quick pick-me-up for employees and even management.'
+feature_image_three: 'https://raw.githubusercontent.com/isocpp/logos/master/cpp_logo.png'
+feature_title_three: 'Platform Independence'
+feature_description_three: 'Run our systems across whichever cloud infrastructure your business utilises. We build with independence in mind.'
 
-feature_image_three: '/img/windows.jpg'
-feature_title_three: 'Built for Enterprise'
-feature_description_three: 'Windows&#174; systems are the beating heart of any Enterprise organisation. We build upon that success.'
+feature_image_two: '/img/windows.jpg'
+feature_title_two: 'Built for Enterprise'
+feature_description_two: 'Windows&#174; systems are the beating heart of any Enterprise organisation. We build upon that success with you.'
 
 
 ####################################
