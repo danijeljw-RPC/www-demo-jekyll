@@ -14,28 +14,7 @@
             </div>
             <div class="row justify-content-between align-items-start">
                 <div class="col-lg-12">
-                    <form accept-charset="UTF-8" action="https://getform.io/f/66f72c83-3def-40f2-b2c9-04e452703297" method="POST" enctype="multipart/form-data" target="_blank" class="form-area contact-form" id="myForm">
-                        <label for="">Your Name</label>
-                        <input name="name" autocomplete="name" placeholder="Enter your name" onfocus="this.placeholder = ''"
-                            onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control"
-                            required="" type="text">
-
-                        <label for="">Email Address</label>
-                        <input name="email" autocomplete="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
-                            onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control"
-                            required="" type="email">
-
-                        <label for="">Message</label>
-                        
-
-                        <div class="">
-                            <button type="submit" class="genric-btn mt-30">Send Message</button>
-                            <div class="alert-msg"></div>
-                        </div>
-                    </form>
-                </div>
-                <div class="col-lg-12">
-                    <form accept-charset="UTF-8" action="https://getform.io/f/66f72c83-3def-40f2-b2c9-04e452703297" method="POST" enctype="multipart/form-data" target="_blank" class="form-area contact-form" id="myForm">
+                    <form accept-charset="UTF-8" action="https://getform.io/f/{{site.getform_id}}" method="POST" enctype="multipart/form-data" target="_blank" class="form-area contact-form" id="myForm">
                         
                         <label for="">Your Name</label>
                         <input type="text" name="name" placeholder="Enter your name" class="common-input mb-20 form-control" 
@@ -50,10 +29,10 @@
                             placeholder="Enter Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Messege'"
                             required="" form="myForm"></textarea>
                         
-
                         <div class="">
                             <button type="submit" class="genric-btn mt-30">Send Message</button>
                         </div>
+                        
                     </form>
                 </div>
             </div>
