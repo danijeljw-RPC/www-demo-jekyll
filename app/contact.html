@@ -1,41 +1,5 @@
-    <!-- Start contact section -->
-    <section id="contact" class="contact-section section-gap">
-        <div class="container">
-            <div class="row justify-content-center section-title-wrap">
-                <div class="col-lg-12">
-                    <!-- <div class="title-img">
-                        <img src="{{ site.contact_image | relative_url }}" alt="">
-                    </div> -->
-                    <h1>{{ site.contact_title }}</h1>
-                    <p>
-                       {{ site.contact_description }}
-                    </p>
-                </div>
-            </div>
-            <div class="row justify-content-between align-items-start">
-                <div class="col-lg-12">
-                    <form accept-charset="UTF-8" action="https://getform.io/f/{{site.getform_id}}" method="POST" enctype="multipart/form-data" target="_blank" class="form-area contact-form" id="myForm">
-                        
-                        <label for="">Your Name</label>
-                        <input type="text" name="name" placeholder="Johnny Smith" class="common-input mb-20 form-control" 
-                            autocomplete="name" onfocus="this.placeholder=''" onblur="this.placeholder='Johnny Smith'" required="" >
-                        
-                        <label for="">Email Address</label>
-                        <input type="text" name="email" placeholder="hello@repasscloud.com" class="common-input mb-20 form-control" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
-                            autocomplete="email" onfocus="this.placeholder=''" onblur="this.placeholder='hello@repasscloud.com'" required="">
-                        
-                        <label for="">Message</label>
-                        <textarea class="common-textarea form-control" cols="30" rows="7" name="message" autocomplete="message"
-                            placeholder="I would like..." onfocus="this.placeholder=''" onblur="this.placeholder='I would like...'"
-                            required="" form="myForm"></textarea>
-                        
-                        <div class="">
-                            <button type="submit" class="genric-btn mt-30">Send Message</button>
-                        </div>
+---
+layout: default
+---
 
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End contact section -->
+{% include section/contact.html %}
