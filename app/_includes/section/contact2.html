@@ -14,8 +14,9 @@
             </div>
             <div class="row justify-content-between align-items-start">
                 <div class="col-lg-12">
-                    <form class="form-area contact-form" id="myForm" action="https://getform.io/f/{{ site.getform_id }}" method="post">
+                    <form accept-charset="UTF-8" action="https://getform.io/66f72c83-3def-40f2-b2c9-04e452703297" method="POST" enctype="multipart/form-data" target="_blank" class="form-area contact-form" id="myForm">
                         <label for="">Your Name</label>
+
                         <input name="name" autocomplete="name" placeholder="Enter your name" onfocus="this.placeholder = ''"
                             onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control"
                             required="" type="text">
@@ -25,21 +26,24 @@
                             onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control"
                             required="" type="email">
 
-                        <label for="">SUbject</label>
-                        <input name="subject" autocomplete="subject" placeholder="Enter subject" onfocus="this.placeholder = ''"
-                            onblur="this.placeholder = 'Enter subject'" class="common-input mb-20 form-control"
-                            required="" type="text">
-
                         <label for="">Message</label>
                         <textarea class="common-textarea form-control" cols="30" rows="7" name="message" autocomplete="message"
                             placeholder="Enter Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Messege'"
                             required=""></textarea>
+
                         <div class="">
                             <button type="submit" class="genric-btn mt-30">Send Message</button>
                             <div class="alert-msg"></div>
                         </div>
                     </form>
-
+                </div>
+                <div class="col-lg-12">
+                    <form accept-charset="UTF-8" action="https://getform.io/{your-form-endpoint}" method="POST" enctype="multipart/form-data" target="_blank">
+                        <input type="email" name="email" placeholder="Your Email">
+                        <input type="text" name="name" placeholder="Your Name">
+                        <input type="text" name="message" placeholder="Your Message">
+                        <button type="submit">Send</button>
+                    </form>
                 </div>
             </div>
         </div>
