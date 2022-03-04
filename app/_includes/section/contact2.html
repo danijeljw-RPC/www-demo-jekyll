@@ -3,9 +3,9 @@
         <div class="container">
             <div class="row justify-content-center section-title-wrap">
                 <div class="col-lg-12">
-                    <div class="title-img">
+                    <!-- <div class="title-img">
                         <img src="{{ site.contact_image | relative_url }}" alt="">
-                    </div>
+                    </div> -->
                     <h1>{{ site.contact_title }}</h1>
                     <p>
                        {{ site.contact_description }}
@@ -45,11 +45,13 @@
                         
                         <label for="">Email Address</label>
                         <input type="text" name="email" placeholder="Enter email address" class="common-input mb-20 form-control" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
-                            autocomplete="name" onfocus="this.placeholder=''" onblur="this.placeholder='Enter email address'" required="">
+                            autocomplete="email" onfocus="this.placeholder=''" onblur="this.placeholder='Enter email address'" required="">
                         
                         <label for="">Message</label>
-                        <input type="text" name="message" placeholder="Enter message" class="common-textarea form-control" cols="30" rows="7" 
-                            autocomplete="name" onfocus="this.placeholder=''" onblur="this.placeholder='Enter message'" required="">
+                        <input type="textarea" name="message" placeholder="Enter messege" class="common-textarea form-control" cols="30" rows="7" 
+                            autocomplete="message" onfocus="this.placeholder=''" onblur="this.placeholder='Enter message'" required="">
+
+                        
 
                         <div class="">
                             <button type="submit" class="genric-btn mt-30">Send Message</button>
