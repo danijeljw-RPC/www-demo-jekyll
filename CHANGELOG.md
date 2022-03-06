@@ -1,16 +1,6 @@
-## 1.0.0 (2022-03-03)
-
-
+## 1.0.0 (2022-03-06)
+* Initial release
 ### Features
-
-* Makefile cleaned up
-* footer setup correctly
-* colouring style chosen
-* products listed
-* removed junk code from blog post header `{% include hero/blog_details.html %}`
-* update blog landing page style
-
-
+* n/a
 ### Bug Fixes
-
 * n/a
